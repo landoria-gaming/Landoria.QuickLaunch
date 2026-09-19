@@ -1,7 +1,5 @@
 # QuickLaunch
 
-Requires MOD_REFERENCES_TOKEN. All five versions must match; only manifest and informational version use -snapshot.
-
 Gets you back into Valheim faster by automatically resuming your last local or multiplayer session.
 
 ## Video demo
