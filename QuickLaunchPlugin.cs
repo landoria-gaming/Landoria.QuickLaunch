@@ -20,20 +20,8 @@ namespace Landoria.QuickLaunch
             RememberedPassword.Log = Logger;
             Logger.LogInfo($"AssemblyVersion: {GetType().Assembly.GetName().Version}.");
             _harmony = new Harmony(PluginGuid);
-            RegisterPatches();
+            _harmony.PatchAll();
             Logger.LogInfo($"{PluginName} {PluginVersion} is loaded.");
-        }
-
-        private void RegisterPatches()
-        {
-            _harmony.CreateClassProcessor(typeof(StartPatch)).Patch();
-            _harmony.CreateClassProcessor(typeof(LocalSessionPatch)).Patch();
-            _harmony.CreateClassProcessor(typeof(MultiplayerSessionPatch)).Patch();
-            _harmony.CreateClassProcessor(typeof(ConnectedServerPatch)).Patch();
-            _harmony.CreateClassProcessor(typeof(LoadingWorldLabel)).Patch();
-            _harmony.CreateClassProcessor(typeof(CapturePasswordPatch)).Patch();
-            _harmony.CreateClassProcessor(typeof(SubmitPasswordPatch)).Patch();
-            _harmony.CreateClassProcessor(typeof(InvalidPasswordPatch)).Patch();
         }
 
         // Unloads the plugin.
