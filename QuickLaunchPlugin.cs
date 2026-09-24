@@ -9,7 +9,7 @@ namespace Landoria.QuickLaunch
     {
         private const string PluginGuid = "Landoria.QuickLaunch";
         private const string PluginName = "Landoria.QuickLaunch";
-        private const string PluginVersion = "1.0.10";
+        private const string PluginVersion = "1.0.11";
 
         private Harmony _harmony;
 
