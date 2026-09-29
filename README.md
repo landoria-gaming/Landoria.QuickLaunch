@@ -5,7 +5,7 @@ Gets you back into Valheim faster by automatically resuming your last local or m
 ## Video demo
 
 <p align="left">
-  <a href="https://youtu.be/K0r75KNOGc0?t=30"><img src="https://raw.githubusercontent.com/landoria-gaming/Landoria.QuickLaunch/main/assets/quick-launch.jpg" alt="QuickLaunch video demo" width="300"></a>
+  <a href="https://youtu.be/K0r75KNOGc0"><img src="https://raw.githubusercontent.com/landoria-gaming/Landoria.QuickLaunch/main/assets/quick-launch.jpg" alt="QuickLaunch video demo" width="300"></a>
 </p>
 
 ## Features
